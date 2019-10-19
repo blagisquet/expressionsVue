@@ -16,6 +16,17 @@ module.exports = {
     ]
   },
   /*
+  ** Font google
+  */
+  head: {
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Zilla+Slab:400,700'
+      }
+    ]
+  },
+  /*
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
@@ -49,7 +60,7 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }
